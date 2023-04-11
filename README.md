@@ -2,7 +2,7 @@
 
 ## Lista de tarefas utilizando Angular
 * [Título e Imagem de capa](#Projeto)
-* [Acesso ao Projeto]([#acesso-ao-projeto](https://userlist-angular.netlify.app))
+* [Acesso ao Projeto](https://userlist-angular.netlify.app){:target="_blank"}
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
