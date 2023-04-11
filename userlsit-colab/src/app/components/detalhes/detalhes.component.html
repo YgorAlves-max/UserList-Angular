@@ -1,0 +1,45 @@
+<mat-dialog-content class="mat-typography">
+  <div>
+    <h2><b>Identidade</b></h2>
+    <div class="container-ident">
+      <h3><b>Primeiro nome: </b>{{user?.name?.first}}</h3>
+      <h3><b>Ultimo nome: </b>{{user?.name?.last}}</h3>
+    </div>
+    <div class="container-espec">
+      <h3><b>Idade:</b> {{user?.dob?.age}}</h3>
+      <h3><b>Gênero: </b>{{user?.gender}}</h3>
+      <h3><b>Data de nascimento: </b>{{user?.registered?.date | date:'dd/MM/yyyy'}}
+        <h3><b>Naturalidade:</b>{{user?.nat}}</h3>
+      </h3>
+    </div>
+    <div>
+      <h2><b>Contato:</b></h2>
+      <h3><b>Email:</b> {{user?.email}}</h3>
+      <h3><b>Celular:</b> {{user?.cell}} </h3>
+      <h3><b>Telefone:</b> {{user?.phone}} </h3>
+    </div>
+
+    <div class="container-ende">
+      <h2><b>Endereço:</b></h2>
+      <div>
+        <p><b>País:</b> {{user?.location?.country}}</p>
+        <p><b>Estado:</b> {{user?.location?.state}}</p>
+        <p><b>Cidade:</b> {{user?.location?.city}} </p>
+        <p><b>Rua:</b> {{user?.location?.street?.name}}</p>
+        <p><b>>Numero:</b> {{user?.location?.street?.number}}</p>
+        <p><b>Codigo postal:</b> {{user?.location?.postcode}}</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div>
+    <h2><b>Cadastro:</b> </h2>
+    <h3><b>Usuario:</b> {{user?.login?.username}}</h3>
+    <h3><b> Senha:</b> {{user?.login?.password}}</h3>
+  </div>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
