@@ -9,14 +9,12 @@
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 
 
-
-
 ## Tecnologias utilizadas 
  * Angular
  * Material UI
  
 ## Projeto
-### <a href="https://userlist-angular.netlify.app" target="_blank">Acesso ao projeto</a>
+### <a href="https://userlist-angular.netlify.app" target="blank">Acesso ao projeto</a>
 
 ![image](https://user-images.githubusercontent.com/99425256/231280717-81028c48-511a-465c-9694-5968b82400fb.png)
 
