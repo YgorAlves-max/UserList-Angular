@@ -23,5 +23,5 @@
 
 ## Descrição
 
-### Para mim o Angular é o melhor framework para se trabalhar, fiz essa listagem e detalhes de usuario bem facilmente utilizando a biblioteca Material UI,
+Para mim o Angular é o melhor framework para se trabalhar, fiz essa listagem e detalhes de usuario bem facilmente utilizando a biblioteca Material UI,
 Adoro fazer esses projetos para treinar!
